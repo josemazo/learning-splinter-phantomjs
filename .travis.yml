@@ -3,6 +3,7 @@ python:
   - "2.7"
 install:
   - pip install splinter --use-mirrors
+  - pip install coveralls --use-mirrors
 script:
   - coverage run --source=the_phantom.py the_phantom.py
 after_success:
